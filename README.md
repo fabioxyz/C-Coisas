@@ -1,2 +1,2 @@
 # InverterC
-Inverter frases em C
+Codigos uteis em C
