@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+
+	char c;
+
+	printf("Insira um caracter : ");
+	scanf(" %c", &c);
+
+	if (c >= '0' && c <= '9') {
+		printf("O caracter introduzido e um algarismo.");
+	}
+	else if ( c >= 'a' && c <= 'z') {
+		printf("O caracter é uma letra minuscula");
+		printf(" - Caracter maiusculo: %c ", c - 'a' + 'A');
+	}
+	else if ( c >= 'A' && c <= 'Z') {
+		printf("O caracter é uma letra maiuscula\n");
+		printf(" - Caracter minusculo: %c ", c - 'A' + 'a');
+	}
+	else {
+		printf("Caracter nao alfanumerico");
+	}
+
+
+}
